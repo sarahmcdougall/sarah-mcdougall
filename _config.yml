@@ -58,8 +58,8 @@ plugins:
 
 author:
   name   : "Sarah McDougall"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  avatar : "/assets/images/linked_in_profile_pic.jpg"
+  bio    : "Full-stack software engineer, aspiring data scientist."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -81,7 +81,7 @@ footer:
       url: "https://www.linkedin.com/in/sarahnmcdougall/"
 
 defaults:
-  # _projects
+  # _posts
   - scope:
       path: ""
       type: posts
