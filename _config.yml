@@ -13,14 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
+title: Portfolio - Sarah McDougall
+email: sarahnmcdougall@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
+github_username: sarahmcdougall
 minimal_mistakes_skin: default
 search: true
 
@@ -58,31 +57,31 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Sarah McDougall"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      url: "https://sarahmcdougall.github.io/sarah-mcdougall/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/sarahmcdougall"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://instagram.com/"
+      url: "https://www.linkedin.com/in/sarahnmcdougall/"
 
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/sarahmcdougall"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://instagram.com/"
+      url: "https://www.linkedin.com/in/sarahnmcdougall/"
 
 defaults:
-  # _posts
+  # _projects
   - scope:
       path: ""
       type: posts
@@ -100,10 +99,3 @@ defaults:
     values:
       layout: single
       author_profile: true
-
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
